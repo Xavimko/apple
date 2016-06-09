@@ -1,0 +1,175 @@
+\hypertarget{main_8cpp}{}\section{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+{\ttfamily \#include $<$windows.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include $<$tchar.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$math.\+h$>$}\\*
+{\ttfamily \#include $<$Windowsx.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Model.\+h\char`\"{}}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{main_8cpp_a598a3330b3c21701223ee0ca14316eca}{PI}~(double)3.\+1415
+\item 
+\#define \hyperlink{main_8cpp_aab72820269ed7f2c3b986f9bf0f24586}{A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT}~10
+\item 
+\#define \hyperlink{main_8cpp_a6f421eac95d50dd6d796129f1e40ca52}{Car\+\_\+\+S\+I\+ZE}~25
+\item 
+\#define \hyperlink{main_8cpp_ac2bfcb7bf9c3f8799df6bae171fdd312}{Car\+\_\+\+P\+O\+S\+I\+T\+I\+ON}~500
+\item 
+\#define \hyperlink{main_8cpp_adbb5489db9daa6679bcb21acc1ef822b}{Car\+\_\+\+V\+\_\+\+M\+AX}~300
+\item 
+\#define \hyperlink{main_8cpp_a86098d96799ce383e0cbd0022734030a}{Car\+\_\+A}~400
+\item 
+\#define \hyperlink{main_8cpp_a5c08b5e71be8893cc0e41752f9bac23f}{C\+A\+N\+N\+O\+N\+\_\+\+CD}~2000
+\item 
+\#define \hyperlink{main_8cpp_a498d9f026138406895e9a34b504ac6a6}{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}~716
+\item 
+\#define \hyperlink{main_8cpp_a5473cf64fa979b48335079c99532e243}{W\+I\+N\+D\+O\+W\+\_\+\+H\+E\+I\+G\+HT}~600
+\item 
+\#define \hyperlink{main_8cpp_a15b5ea5add5ffe6d00297e09d5eb1b70}{W\+A\+L\+L\+S\+P\+E\+ED}~0.\+1
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK \hyperlink{main_8cpp_a9135ea2a0d6fce68ba3b858226a31a4f}{Wnd\+Proc} (H\+W\+ND, U\+I\+NT, W\+P\+A\+R\+AM, L\+P\+A\+R\+AM)
+\item 
+void \hyperlink{main_8cpp_a21c2335e6df73b1864dd7563f6810caa}{Do\+Physics} (U\+L\+O\+N\+G\+L\+O\+NG dT)
+\item 
+void \hyperlink{main_8cpp_a93ecb4242527b80e76b5e28209f67d2d}{Start\+Game} ()
+\item 
+int W\+I\+N\+A\+PI \hyperlink{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}{Win\+Main} (H\+I\+N\+S\+T\+A\+N\+CE h\+Instance, H\+I\+N\+S\+T\+A\+N\+CE h\+Prev\+Instance, L\+P\+S\+TR lp\+Cmd\+Line, int n\+Cmd\+Show)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+H\+I\+N\+S\+T\+A\+N\+CE \hyperlink{main_8cpp_a44f41244c97693b2fbd5244bcb1e86ec}{h\+Inst}
+\item 
+\hyperlink{struct_t_wall}{T\+Wall} \hyperlink{main_8cpp_a85f109001fe5f9fbd44d863634d4398b}{Wall}
+\item 
+\hyperlink{struct_t_car}{T\+Car} \hyperlink{main_8cpp_a0228ee12abbe6f144506b0e3ad7d916a}{Car}
+\item 
+\hyperlink{struct_t_asteroid}{T\+Asteroid} \hyperlink{main_8cpp_aabb362ddf5c33b789738a9d214ff81a1}{asteroids} \mbox{[}\hyperlink{main_8cpp_aab72820269ed7f2c3b986f9bf0f24586}{A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT}\mbox{]}
+\item 
+int \hyperlink{main_8cpp_af53d91d16c64b57e817bffc0f34c4364}{Wall1} \mbox{[}$\,$\mbox{]} = \{1,1,0,1,0,1,1,1,0,0,1,0,1,1,0\}
+\item 
+int \hyperlink{main_8cpp_a80cc853729961a321707abc28920b55f}{Wall2} \mbox{[}$\,$\mbox{]} = \{0,1,1,0,1,0,0,1,0,0,1,0,0,1,1\}
+\item 
+int \hyperlink{main_8cpp_a65fd9679753fcffcece067e5eb96a4e4}{Wall3} \mbox{[}$\,$\mbox{]} = \{1,0,0,0,1,1,1,0,0,1,0,1,0,1,1\}
+\item 
+int \hyperlink{main_8cpp_ad10bbbf7b70e4fe25455fb48f5706b76}{Wall4} \mbox{[}$\,$\mbox{]} = \{0,0,1,0,1,1,1,1,1,1,0,0,1,1,0\}
+\item 
+int \hyperlink{main_8cpp_a7716df351d785bbc371fa68420566a20}{Wall5} \mbox{[}$\,$\mbox{]} = \{1,1,1,1,0,0,1,1,1,1,0,1,1,0,1\}
+\item 
+int \hyperlink{main_8cpp_a974c9f861168ddb5e04d16096b872ba6}{randomized}
+\item 
+H\+B\+I\+T\+M\+AP \hyperlink{main_8cpp_a9fc5abab889d6fd98fcc0efdc177bd7e}{h\+Bitmap} = N\+U\+LL
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{main.\+cpp@{main.\+cpp}!A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT@{A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT}}
+\index{A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT@{A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT}{ASTEROID_COUNT}}]{\setlength{\rightskip}{0pt plus 5cm}\#define A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT~10}\hypertarget{main_8cpp_aab72820269ed7f2c3b986f9bf0f24586}{}\label{main_8cpp_aab72820269ed7f2c3b986f9bf0f24586}
+\index{main.\+cpp@{main.\+cpp}!C\+A\+N\+N\+O\+N\+\_\+\+CD@{C\+A\+N\+N\+O\+N\+\_\+\+CD}}
+\index{C\+A\+N\+N\+O\+N\+\_\+\+CD@{C\+A\+N\+N\+O\+N\+\_\+\+CD}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{C\+A\+N\+N\+O\+N\+\_\+\+CD}{CANNON_CD}}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+A\+N\+N\+O\+N\+\_\+\+CD~2000}\hypertarget{main_8cpp_a5c08b5e71be8893cc0e41752f9bac23f}{}\label{main_8cpp_a5c08b5e71be8893cc0e41752f9bac23f}
+\index{main.\+cpp@{main.\+cpp}!Car\+\_\+A@{Car\+\_\+A}}
+\index{Car\+\_\+A@{Car\+\_\+A}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Car\+\_\+A}{Car_A}}]{\setlength{\rightskip}{0pt plus 5cm}\#define Car\+\_\+A~400}\hypertarget{main_8cpp_a86098d96799ce383e0cbd0022734030a}{}\label{main_8cpp_a86098d96799ce383e0cbd0022734030a}
+\index{main.\+cpp@{main.\+cpp}!Car\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{Car\+\_\+\+P\+O\+S\+I\+T\+I\+ON}}
+\index{Car\+\_\+\+P\+O\+S\+I\+T\+I\+ON@{Car\+\_\+\+P\+O\+S\+I\+T\+I\+ON}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Car\+\_\+\+P\+O\+S\+I\+T\+I\+ON}{Car_POSITION}}]{\setlength{\rightskip}{0pt plus 5cm}\#define Car\+\_\+\+P\+O\+S\+I\+T\+I\+ON~500}\hypertarget{main_8cpp_ac2bfcb7bf9c3f8799df6bae171fdd312}{}\label{main_8cpp_ac2bfcb7bf9c3f8799df6bae171fdd312}
+\index{main.\+cpp@{main.\+cpp}!Car\+\_\+\+S\+I\+ZE@{Car\+\_\+\+S\+I\+ZE}}
+\index{Car\+\_\+\+S\+I\+ZE@{Car\+\_\+\+S\+I\+ZE}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Car\+\_\+\+S\+I\+ZE}{Car_SIZE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define Car\+\_\+\+S\+I\+ZE~25}\hypertarget{main_8cpp_a6f421eac95d50dd6d796129f1e40ca52}{}\label{main_8cpp_a6f421eac95d50dd6d796129f1e40ca52}
+\index{main.\+cpp@{main.\+cpp}!Car\+\_\+\+V\+\_\+\+M\+AX@{Car\+\_\+\+V\+\_\+\+M\+AX}}
+\index{Car\+\_\+\+V\+\_\+\+M\+AX@{Car\+\_\+\+V\+\_\+\+M\+AX}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Car\+\_\+\+V\+\_\+\+M\+AX}{Car_V_MAX}}]{\setlength{\rightskip}{0pt plus 5cm}\#define Car\+\_\+\+V\+\_\+\+M\+AX~300}\hypertarget{main_8cpp_adbb5489db9daa6679bcb21acc1ef822b}{}\label{main_8cpp_adbb5489db9daa6679bcb21acc1ef822b}
+\index{main.\+cpp@{main.\+cpp}!PI@{PI}}
+\index{PI@{PI}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{PI}{PI}}]{\setlength{\rightskip}{0pt plus 5cm}\#define PI~(double)3.\+1415}\hypertarget{main_8cpp_a598a3330b3c21701223ee0ca14316eca}{}\label{main_8cpp_a598a3330b3c21701223ee0ca14316eca}
+\index{main.\+cpp@{main.\+cpp}!W\+A\+L\+L\+S\+P\+E\+ED@{W\+A\+L\+L\+S\+P\+E\+ED}}
+\index{W\+A\+L\+L\+S\+P\+E\+ED@{W\+A\+L\+L\+S\+P\+E\+ED}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{W\+A\+L\+L\+S\+P\+E\+ED}{WALLSPEED}}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+A\+L\+L\+S\+P\+E\+ED~0.\+1}\hypertarget{main_8cpp_a15b5ea5add5ffe6d00297e09d5eb1b70}{}\label{main_8cpp_a15b5ea5add5ffe6d00297e09d5eb1b70}
+\index{main.\+cpp@{main.\+cpp}!W\+I\+N\+D\+O\+W\+\_\+\+H\+E\+I\+G\+HT@{W\+I\+N\+D\+O\+W\+\_\+\+H\+E\+I\+G\+HT}}
+\index{W\+I\+N\+D\+O\+W\+\_\+\+H\+E\+I\+G\+HT@{W\+I\+N\+D\+O\+W\+\_\+\+H\+E\+I\+G\+HT}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{W\+I\+N\+D\+O\+W\+\_\+\+H\+E\+I\+G\+HT}{WINDOW_HEIGHT}}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+I\+N\+D\+O\+W\+\_\+\+H\+E\+I\+G\+HT~600}\hypertarget{main_8cpp_a5473cf64fa979b48335079c99532e243}{}\label{main_8cpp_a5473cf64fa979b48335079c99532e243}
+\index{main.\+cpp@{main.\+cpp}!W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH@{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}}
+\index{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH@{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH}{WINDOW_WIDTH}}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\+I\+N\+D\+O\+W\+\_\+\+W\+I\+D\+TH~716}\hypertarget{main_8cpp_a498d9f026138406895e9a34b504ac6a6}{}\label{main_8cpp_a498d9f026138406895e9a34b504ac6a6}
+
+
+\subsection{Function Documentation}
+\index{main.\+cpp@{main.\+cpp}!Do\+Physics@{Do\+Physics}}
+\index{Do\+Physics@{Do\+Physics}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Do\+Physics(\+U\+L\+O\+N\+G\+L\+O\+N\+G d\+T)}{DoPhysics(ULONGLONG dT)}}]{\setlength{\rightskip}{0pt plus 5cm}void Do\+Physics (
+\begin{DoxyParamCaption}
+\item[{U\+L\+O\+N\+G\+L\+O\+NG}]{dT}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a21c2335e6df73b1864dd7563f6810caa}{}\label{main_8cpp_a21c2335e6df73b1864dd7563f6810caa}
+\index{main.\+cpp@{main.\+cpp}!Start\+Game@{Start\+Game}}
+\index{Start\+Game@{Start\+Game}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Start\+Game()}{StartGame()}}]{\setlength{\rightskip}{0pt plus 5cm}void Start\+Game (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a93ecb4242527b80e76b5e28209f67d2d}{}\label{main_8cpp_a93ecb4242527b80e76b5e28209f67d2d}
+\index{main.\+cpp@{main.\+cpp}!Win\+Main@{Win\+Main}}
+\index{Win\+Main@{Win\+Main}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Win\+Main(\+H\+I\+N\+S\+T\+A\+N\+C\+E h\+Instance, H\+I\+N\+S\+T\+A\+N\+C\+E h\+Prev\+Instance, L\+P\+S\+T\+R lp\+Cmd\+Line, int n\+Cmd\+Show)}{WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)}}]{\setlength{\rightskip}{0pt plus 5cm}int W\+I\+N\+A\+PI Win\+Main (
+\begin{DoxyParamCaption}
+\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Instance, }
+\item[{H\+I\+N\+S\+T\+A\+N\+CE}]{h\+Prev\+Instance, }
+\item[{L\+P\+S\+TR}]{lp\+Cmd\+Line, }
+\item[{int}]{n\+Cmd\+Show}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}{}\label{main_8cpp_a661c2abc03926acfaeb93b4ae7db4943}
+\index{main.\+cpp@{main.\+cpp}!Wnd\+Proc@{Wnd\+Proc}}
+\index{Wnd\+Proc@{Wnd\+Proc}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wnd\+Proc(\+H\+W\+N\+D, U\+I\+N\+T, W\+P\+A\+R\+A\+M, L\+P\+A\+R\+A\+M)}{WndProc(HWND, UINT, WPARAM, LPARAM)}}]{\setlength{\rightskip}{0pt plus 5cm}L\+R\+E\+S\+U\+LT C\+A\+L\+L\+B\+A\+CK Wnd\+Proc (
+\begin{DoxyParamCaption}
+\item[{H\+W\+ND}]{h\+Wnd, }
+\item[{U\+I\+NT}]{message, }
+\item[{W\+P\+A\+R\+AM}]{w\+Param, }
+\item[{L\+P\+A\+R\+AM}]{l\+Param}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8cpp_a9135ea2a0d6fce68ba3b858226a31a4f}{}\label{main_8cpp_a9135ea2a0d6fce68ba3b858226a31a4f}
+
+
+\subsection{Variable Documentation}
+\index{main.\+cpp@{main.\+cpp}!asteroids@{asteroids}}
+\index{asteroids@{asteroids}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{asteroids}{asteroids}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\+Asteroid} asteroids\mbox{[}{\bf A\+S\+T\+E\+R\+O\+I\+D\+\_\+\+C\+O\+U\+NT}\mbox{]}}\hypertarget{main_8cpp_aabb362ddf5c33b789738a9d214ff81a1}{}\label{main_8cpp_aabb362ddf5c33b789738a9d214ff81a1}
+\index{main.\+cpp@{main.\+cpp}!Car@{Car}}
+\index{Car@{Car}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Car}{Car}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\+Car} Car}\hypertarget{main_8cpp_a0228ee12abbe6f144506b0e3ad7d916a}{}\label{main_8cpp_a0228ee12abbe6f144506b0e3ad7d916a}
+\index{main.\+cpp@{main.\+cpp}!h\+Bitmap@{h\+Bitmap}}
+\index{h\+Bitmap@{h\+Bitmap}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{h\+Bitmap}{hBitmap}}]{\setlength{\rightskip}{0pt plus 5cm}H\+B\+I\+T\+M\+AP h\+Bitmap = N\+U\+LL}\hypertarget{main_8cpp_a9fc5abab889d6fd98fcc0efdc177bd7e}{}\label{main_8cpp_a9fc5abab889d6fd98fcc0efdc177bd7e}
+\index{main.\+cpp@{main.\+cpp}!h\+Inst@{h\+Inst}}
+\index{h\+Inst@{h\+Inst}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{h\+Inst}{hInst}}]{\setlength{\rightskip}{0pt plus 5cm}H\+I\+N\+S\+T\+A\+N\+CE h\+Inst}\hypertarget{main_8cpp_a44f41244c97693b2fbd5244bcb1e86ec}{}\label{main_8cpp_a44f41244c97693b2fbd5244bcb1e86ec}
+\index{main.\+cpp@{main.\+cpp}!randomized@{randomized}}
+\index{randomized@{randomized}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{randomized}{randomized}}]{\setlength{\rightskip}{0pt plus 5cm}int randomized}\hypertarget{main_8cpp_a974c9f861168ddb5e04d16096b872ba6}{}\label{main_8cpp_a974c9f861168ddb5e04d16096b872ba6}
+\index{main.\+cpp@{main.\+cpp}!Wall@{Wall}}
+\index{Wall@{Wall}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wall}{Wall}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf T\+Wall} Wall}\hypertarget{main_8cpp_a85f109001fe5f9fbd44d863634d4398b}{}\label{main_8cpp_a85f109001fe5f9fbd44d863634d4398b}
+\index{main.\+cpp@{main.\+cpp}!Wall1@{Wall1}}
+\index{Wall1@{Wall1}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wall1}{Wall1}}]{\setlength{\rightskip}{0pt plus 5cm}int Wall1\mbox{[}$\,$\mbox{]} = \{1,1,0,1,0,1,1,1,0,0,1,0,1,1,0\}}\hypertarget{main_8cpp_af53d91d16c64b57e817bffc0f34c4364}{}\label{main_8cpp_af53d91d16c64b57e817bffc0f34c4364}
+\index{main.\+cpp@{main.\+cpp}!Wall2@{Wall2}}
+\index{Wall2@{Wall2}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wall2}{Wall2}}]{\setlength{\rightskip}{0pt plus 5cm}int Wall2\mbox{[}$\,$\mbox{]} = \{0,1,1,0,1,0,0,1,0,0,1,0,0,1,1\}}\hypertarget{main_8cpp_a80cc853729961a321707abc28920b55f}{}\label{main_8cpp_a80cc853729961a321707abc28920b55f}
+\index{main.\+cpp@{main.\+cpp}!Wall3@{Wall3}}
+\index{Wall3@{Wall3}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wall3}{Wall3}}]{\setlength{\rightskip}{0pt plus 5cm}int Wall3\mbox{[}$\,$\mbox{]} = \{1,0,0,0,1,1,1,0,0,1,0,1,0,1,1\}}\hypertarget{main_8cpp_a65fd9679753fcffcece067e5eb96a4e4}{}\label{main_8cpp_a65fd9679753fcffcece067e5eb96a4e4}
+\index{main.\+cpp@{main.\+cpp}!Wall4@{Wall4}}
+\index{Wall4@{Wall4}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wall4}{Wall4}}]{\setlength{\rightskip}{0pt plus 5cm}int Wall4\mbox{[}$\,$\mbox{]} = \{0,0,1,0,1,1,1,1,1,1,0,0,1,1,0\}}\hypertarget{main_8cpp_ad10bbbf7b70e4fe25455fb48f5706b76}{}\label{main_8cpp_ad10bbbf7b70e4fe25455fb48f5706b76}
+\index{main.\+cpp@{main.\+cpp}!Wall5@{Wall5}}
+\index{Wall5@{Wall5}!main.\+cpp@{main.\+cpp}}
+\subsubsection[{\texorpdfstring{Wall5}{Wall5}}]{\setlength{\rightskip}{0pt plus 5cm}int Wall5\mbox{[}$\,$\mbox{]} = \{1,1,1,1,0,0,1,1,1,1,0,1,1,0,1\}}\hypertarget{main_8cpp_a7716df351d785bbc371fa68420566a20}{}\label{main_8cpp_a7716df351d785bbc371fa68420566a20}
